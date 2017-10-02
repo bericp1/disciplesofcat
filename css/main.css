@@ -1,0 +1,48 @@
+html, body {width: 100%; height: 100%;}
+body {
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #323036;
+    line-height: 1.3;
+}
+a {
+    color: #B5838D;
+    font-weight: bold;
+    text-decoration: none;
+}
+div {
+    box-sizing: border-box;
+}
+.all-hail {
+    width: 500px;
+    max-width: 90%;
+}
+.links {
+    padding: 0 20px 10px 20px;
+    font-size: 0.8em;
+    line-height: 2.1;
+    color: #A1A0A3;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+@media screen and (min-width: 600px) {
+    .links {
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    .links .right {
+        text-align: right;
+    }
+}
